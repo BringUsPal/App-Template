@@ -1,0 +1,29 @@
+# macOS junk
+.DS_Store
+__MACOSX/
+._*
+
+# Node / React Native
+node_modules/
+*.log
+
+# Android build files
+android/.gradle/
+android/build/
+android/app/build/
+*.keystore
+*.jks
+*.apk
+*.aab
+
+# iOS build files
+ios/Pods/
+ios/build/
+
+# Sensitive / secrets
+secrets/
+*.pem
+*.p8
+*.mobileprovision
+google-services.json
+ios/**/GoogleService-Info.plist
